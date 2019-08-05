@@ -1,0 +1,21 @@
+<parameters>
+  <index>index</index>
+  <trecFormat>true</trecFormat>
+  <count>1000</count>
+  <query>
+    <number>115</number>
+    <text>
+      #weight( 1.0 Jaimie 1.0 potatoes  1.0 the  )
+    </text>
+  </query>
+  <query>
+    <number>116</number>
+    <text>
+      #weight( 1.0 water 1.0 potatoes  1.0 the  )
+    </text>
+  </query>
+  <stopper>
+    <word>small</word>
+    <word>the</word>
+  </stopper>
+</parameters>
