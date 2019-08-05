@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# my local files
+docker/index
+docker/indri*
+data_spaced/
+indry/index/
