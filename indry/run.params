@@ -1,7 +1,7 @@
 <parameters>
   <index>index</index>
   <trecFormat>true</trecFormat>
-  <count>1000</count>
+  <count>10</count>
   <query>
     <number>115</number>
     <text>
