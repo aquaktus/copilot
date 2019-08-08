@@ -134,5 +134,8 @@ venv.bak/
 # my local files
 docker/index
 docker/indri*
-data_spaced/
+datasets/
 indry/index/
+
+# temp files and folders
+temp/
