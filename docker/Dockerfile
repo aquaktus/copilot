@@ -18,7 +18,7 @@ RUN apt-get install -y python3 python3-pip
 # RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
 RUN apt-get install -y unzip
 RUN python3 -m pip install --upgrade pip
-RUN pip3 install tensorflow==2.0.0-beta1 matplotlib jupyter jupyter_contrib_nbextensions setuptools flask
+RUN pip3 install tensorflow==2.0.0-beta1 matplotlib jupyter jupyter_contrib_nbextensions setuptools flask colored
 RUN jupyter contrib nbextension install --user
 RUN jupyter nbextension enable splitcell/splitcell
 
