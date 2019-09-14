@@ -22,7 +22,7 @@ from __future__ import print_function
 import math
 import numpy as np
 
-import common_layers
+from copilot.utils import common_layers
 import tensorflow as tf
 
 from tensorflow.python.ops import inplace_ops
